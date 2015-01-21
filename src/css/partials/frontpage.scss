@@ -20,10 +20,11 @@ header {
 
 #filter {
     position: fixed;
-    top: 318;
-    left: 220;
+    /*top: 318;
+    left: 220; */
 	list-style-type: none;
     padding:0;
+    margin-left: 200px;
 }
 
 #filter li a {
@@ -33,15 +34,27 @@ header {
 	line-height: 25px;
 }
 
-#main {
-    max-width:960px;
-    margin:0 auto;
+#filter li a:hover {
+    border-bottom: 2px solid black;
+    font-size: 18px;
+    color: #000000;
+    line-height: 25px;
+    transition: .2s;
 }
+
+#main {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*
+.project {
+    margin: 5px;
+} */
 
 #grid {
     padding-top: 0px;
     width:80%;
-    float:right;
 }
 
 .cbp-rfgrid {
@@ -58,7 +71,6 @@ header {
     float: left;
     overflow: hidden;
     width: 33.33%;
-    width: -webkit-calc(100% / 3);
     width: calc(100% / 3);
 }
  
@@ -73,7 +85,6 @@ header {
     max-width: 100%;
 }
  
-/* Flexbox is used for centering the heading */
 .cbp-rfgrid li a div {
     position: absolute;
     left: 0px;
@@ -81,13 +92,7 @@ header {
     right: 0px;
     bottom: 0px;
     background: rgba(10,10,10,0.6);
-    display: -webkit-flex;
-    display: -moz-flex;
-    display: -ms-flex;
     display: flex;
-    -webkit-align-items: center;
-    -moz-align-items: center;
-    -ms-align-items: center;
     align-items: center;
     text-align: center;
     opacity: 0;
@@ -95,6 +100,7 @@ header {
  
 .cbp-rfgrid li a:hover div {
     opacity: 1;
+    transition: .2s;
 }
  
 .cbp-rfgrid li a div h3 {
@@ -108,7 +114,7 @@ header {
  
 @media screen and (max-width: 400px) {
     .cbp-rfgrid li {
-        width: 50%; /* Fallback */
+        width: 50%;
         width: -webkit-calc(100% / 2);
         width: calc(100% / 2);
     }
