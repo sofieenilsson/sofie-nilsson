@@ -1,0 +1,26 @@
+{
+  "name": "sass-grunt",
+  "version": "0.0.1",
+  "homepage": "https://github.com/onordbo/sass-grunt",
+  "authors": [
+    "Øyvind Nordbø <oyvinor@gmail.com>"
+  ],
+  "description": "sass-grunt workflow",
+  "main": "Gruntfile.js",
+  "keywords": [
+    "n/a"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "~3.3.1",
+    "normalize.css": "~3.0.2"
+  }
+}

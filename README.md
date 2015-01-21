@@ -1,2 +1,2 @@
-# sofie-nilsson
-Portfolio Source Code
+# sass-grunt
+Grunt workflow with SASS for my portfolio
