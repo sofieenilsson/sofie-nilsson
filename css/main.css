@@ -1,0 +1,114 @@
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #A000FF;
+	color: #FFF;
+}
+
+/* S T A R T S I D A */
+
+h1 {
+	font-size: 55px;
+	text-align: center;
+  width: 650px;
+  height: 100%;
+  margin-top: 150px;
+  margin-left: 295px;
+  margin-bottom: 15px;
+}
+
+
+/* M E N U */
+
+h2 {
+  font-size: 55px;
+  text-align: center;
+  width: 910px;
+  margin: 280px 25px 15px 0;
+}
+
+#footer {
+  color: #000;
+  padding-top: 200px;
+  text-align: center;
+  font-size: 15px;
+}
+
+#nav-icon3 span {
+  display: block;
+  position: absolute;
+  height: 8px;
+  width: 100%;
+  background: #FFF;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+     -moz-transform: rotate(0deg);
+       -o-transform: rotate(0deg);
+          transform: rotate(0deg);
+  -webkit-transition: .25s ease-in-out;
+     -moz-transition: .25s ease-in-out;
+       -o-transition: .25s ease-in-out;
+          transition: .25s ease-in-out;
+}
+
+.content {
+  margin-top: 70px;
+}
+
+.menu {
+  visibility: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-visible {
+  visibility: visible;
+  background-color: white;
+  transition: .5s ease-in-out;
+}
+
+.nav-item {
+  color: #000;
+  margin: 10px 0 0 0;
+  padding-left: 0px;
+}
+
+#nav-icon3.open span {
+  background: #000;
+}
+
+
+/* L I N K S */
+
+/* unvisited link */
+a:link {
+    color: #FFF;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFF;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    opacity: 0;
+    text-decoration: none;
+       -o-transition: .3s;
+     -moz-transition: .3s;
+  -webkit-transition: .3s;
+          transition: .3s;
+}
+
+/* selected link */
+a:active {
+    color: #FFF;
+    text-decoration: none;
+}
+
+

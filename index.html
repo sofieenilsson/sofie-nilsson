@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>sofie nilsson / designer</title>
+		
+	<!-- M E T A -->
+		<meta property="og:title" content="hej">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<meta name"identifier-url" content="http://www.sofienilsson.se">
+		<meta name="title" content="sofie nilsson - designer">
+		<meta name="description" content="Hello! I'm a designer and illustrator from Sweden. I love colors, free-shaped letters and sneakers.">
+		<meta name="abstract" content="Hello! I'm a designer and illustrator from Sweden. I love colors, free-shaped letters and sneakers.">
+		<meta name="keywords" content="graphic design, design, grafisk design, illustrator, Sweden, hyper island">
+		<meta name="author" content="Sofie Nilsson">
+
+	<!-- C S S -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.2/normalize.min.css">
+		<link rel="stylesheet" type="text/css" href="css/grid.css">
+		<link rel="stylesheet" type="text/css" href="css/menu.css">
+		<link rel="stylesheet" type="text/css" href="css/nav.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/animate.css">
+	</head>
+
+<!-- B O D Y -->
+	<body>
+	<!-- M E N U-->
+		<div class="menu">
+			<div class="menu-list">
+		 		<ul>
+					<li>
+						<a href="project-start.html">
+							<h2 class="nav-item">Work</h2>
+						</a>
+					</li>
+
+		 			<li>
+						<a href="about.html">
+							<h2 class="nav-item">About</h2>
+						</a>
+					</li>
+
+					<li>
+						<a href="mailto:hello@sofienilsson.se">
+							<h2 class="nav-item">Contact</h2>
+						</a>
+					</li>
+
+					<li>
+						<a href="playground.html">
+							<h2 class="nav-item">Playground</h2>
+						</a>
+					</li>
+					<div id="footer">
+						<p>hello@sofienilsson.se / +46 704 48 88 03</p>
+					</div>
+		    	</ul>
+			</div>
+		</div>	
+
+	<!-- G R I D -->
+		<div class="grid grid-pad wrapper">
+		    <div class="col-1-1">
+		    	<div class="content">
+					<div id="nav-icon3"> 
+						<span></span>
+						<span></span>
+						<span></span>
+						<span></span>
+		    		</div>
+				</div>
+		   		<h1>
+		   			Hello!
+					</br>
+		   			I'm a digital <a href="http://en.wikipedia.org/wiki/Designer" target="blank">designer</a> and <a href="http://en.wikipedia.org/wiki/Illustrator" target="blank">illustrator</a> from Sweden. I love colors, free-shaped letters and sneakers.
+		   		</h1>
+			</div>
+		</div>
+
+
+	<!-- M E N U  A N I M A T I O N -->
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script>
+			$(document).ready(function(){
+
+			//Hamburger animation
+			$('#nav-icon3').click(function(){
+				$(this).toggleClass('open');
+				$('.menu').toggleClass('menu-visible');
+			});
+
+		});
+		</script>
+	</body>
+</html>
