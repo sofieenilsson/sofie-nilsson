@@ -1,0 +1,37 @@
+
+/*  - - LINKS / NAVIGATION - - */
+
+ul {
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding-left: 0px;
+}
+
+/* unvisited link */
+a:link {
+    color: #28333D;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: #28333D;
+    text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+    opacity: 0;
+    text-decoration: none;
+       -o-transition: .3s;
+     -moz-transition: .3s;
+  -webkit-transition: .3s;
+          transition: .3s;
+}
+
+/* selected link */
+a:active {
+    color: #28333D;
+    text-decoration: none;
+}

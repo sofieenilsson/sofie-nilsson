@@ -2,7 +2,7 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 	background: #FCFCFC;
-	color: #000;
+	color: #28333D;
 }
 
 /* - - P R O J E C T S - - */
@@ -10,26 +10,20 @@ body {
 h1 {
 	font-size: 35px;
 	padding-top: 27px;
+  text-align: center;
 }
 
 h2 {
   font-size: 22px;
 }
 
-#photos1 {
-	padding-top: 192px;
-}
-
-#photos2 {
-	padding-top: 118px;
-}
-
 #photos {
 	padding-top: 16px;
+  max-width: 300px;
 }
 
 .content {
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 /*  - - L I N K S - - */
