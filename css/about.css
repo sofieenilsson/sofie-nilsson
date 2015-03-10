@@ -86,3 +86,36 @@ a:active {
     color: #000;
     text-decoration: none;
 }
+
+
+/* - - L I N K  D I F F E R E N T  C O L O R - - */
+
+A.link {
+  color:#DF00FF;
+}
+
+A.link:link  {
+  text-decoration: none;
+  color: #DF00FF;
+}
+
+A.link:visited {
+  text-decoration: none; 
+  color: #DF00FF;
+}
+
+A.link:hover {
+  text-decoration: none; 
+  color: #DF00FF;
+}
+
+A.link:active {
+  text-decoration: none;
+  color: #DF00FF;
+}
+
+
+
+
+
+
