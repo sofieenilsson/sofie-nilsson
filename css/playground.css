@@ -5,7 +5,7 @@ body {
 	color: #28333D;
 }
 
-/* - - P R O J E C T S - - */
+/* P R O J E C T S */
 
 h1 {
 	font-size: 35px;
@@ -26,7 +26,11 @@ h2 {
   margin-top: 0px;
 }
 
-/*  - - L I N K S - - */
+.hidden {
+    display: none;
+}
+
+/*  L I N K S */
 
 a, a:visited, a:active {text-decoration: none; color: #282727;}
 
@@ -89,7 +93,7 @@ a.darken:hover span{
 }
 
 
-/* BACK TO TOP BUTTON */
+/* B A C K  T O  T O P  B U T T O N */
 
 .cd-top.cd-is-visible {
   /* the button becomes visible */
