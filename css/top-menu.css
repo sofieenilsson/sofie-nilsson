@@ -1,22 +1,30 @@
+
 h1 {
-  font-size: 38px;
+  font-size: 30px;
   text-align: center;
   color: #28333D;
+  padding-left: 0px;
+  padding-right: 14px;
+  margin-bottom: 5px;
 }
 
 
 /*  - - LINKS / NAVIGATION - - */
 
 ul {
-  font-size: 18px;
+  font-size: 14px;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 5px;
   margin-bottom: 15px;
   padding-left: 0px;
 }
 
+li {
+  display: inline;
+}
+
 #menu-link {
-  margin-right: 20px;
+  margin-right: 14px;
 }
 
 
@@ -34,6 +42,7 @@ a:visited {
 
 /* mouse over link 
 a:hover {
+  color: #28333D;
   border-bottom: solid 2px #28333D;
   display: inline;
   padding-bottom: 2px;

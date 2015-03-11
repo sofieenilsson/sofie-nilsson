@@ -13,6 +13,14 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #C6C6C6;
+  text-align: center;
+}
+
 
 /* - - P R O J E C T S - - */
 
@@ -60,9 +68,9 @@ a.darken {
 }
 
 a.darken:hover {
-	-moz-opacity:2;
-	-khtml-opacity: 2;
-	opacity: 2;
+  opacity: 2;
+	   -moz-opacity: 2;
+	 -khtml-opacity: 2;
 }
 
 a.darken img {

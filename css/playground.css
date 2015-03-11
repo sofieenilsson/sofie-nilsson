@@ -7,14 +7,10 @@ body {
 
 /* P R O J E C T S */
 
-h1 {
+h2 {
 	font-size: 35px;
 	padding-top: 27px;
   text-align: center;
-}
-
-h2 {
-  font-size: 22px;
 }
 
 #photos {
