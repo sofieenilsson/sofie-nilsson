@@ -2,16 +2,16 @@
 body {
 	font-family: 'Montserrat', sans-serif;
   background-color: #28333D;
-	color: #FFF;
+	color: #4C6670;
 }
 
 /* S T A R T S I D A */
 
-h1 {
-	font-size: 57px;
+h3 {
+	font-size: 3.8em;
   line-height: 72px;
 	text-align: left;
-  width: 1000px;
+  max-width: 1100px;
   height: 100%;
   margin-top: 150px;
   margin-bottom: 15px;
@@ -23,6 +23,10 @@ h2 {
   font-size: 20px;
   padding-top: 170px;
   transition: .5s;
+}
+
+img {
+  max-width: 24px;
 }
 
 
@@ -57,58 +61,39 @@ a:active {
 }
 
 
-/* M E N U */
+/* - BIGGER SCREEN - */
+
 /*
-#footer {
-  color: #000;
-  padding-top: 200px;
-  text-align: center;
-  font-size: 15px;
-}
+@media screen and (min-width: 1280px) {
 
-#nav-icon3 span {
-  display: block;
-  position: absolute;
-  height: 8px;
-  width: 100%;
-  background: #FFF;
-  border-radius: 9px;
-  opacity: 1;
-  left: 0;
-  -webkit-transform: rotate(0deg);
-     -moz-transform: rotate(0deg);
-       -o-transform: rotate(0deg);
-          transform: rotate(0deg);
-  -webkit-transition: .25s ease-in-out;
-     -moz-transition: .25s ease-in-out;
-       -o-transition: .25s ease-in-out;
-          transition: .25s ease-in-out;
-}
-
-.content {
-  margin-top: 70px;
-}
-
-.menu {
-  visibility: hidden;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-}
-
-.menu-visible {
-  visibility: visible;
-  background-color: white;
-  transition: .5s ease-in-out;
-}
-
-.nav-item {
-  color: #000;
-  margin: 10px 0 0 0;
-  padding-left: 0px;
-}
-
-#nav-icon3.open span {
-  background: #000;
 }
 */
+
+/* Superior Phone */
+@media screen and (max-width: 768px) {
+  h3 {
+    font-size: 1.7em;
+    line-height: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    padding-top: 60px;
+  }
+}
+
+
+/* iBrick */
+@media screen and (max-width: 640px) {
+  h3 {
+    font-size: 1.5em;
+    line-height: 30px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  h2 {
+    padding-top: 30px;
+  }
+}
