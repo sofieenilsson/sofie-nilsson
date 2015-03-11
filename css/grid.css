@@ -1,75 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
-
-html {
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
-
-
-/* - M E N U - */
-
-h1 {
-  font-size: 30px;
-  text-align: center;
-  color: #28333D;
-  padding-left: 0px;
-  padding-right: 14px;
-  margin-bottom: 5px;
-}
-
-
-/*  - - LINKS / NAVIGATION - - */
-
-ul {
-  font-size: 14px;
-  text-align: center;
-  margin-top: 5px;
-  margin-bottom: 15px;
-  padding-left: 0px;
-}
-
-li {
-  display: inline;
-}
-
-#menu-link {
-  margin-right: 14px;
-}
-
-
-/* unvisited link */
-a:link {
-  color: #28333D;
-  text-decoration: none;
-}
-
-/* visited link */
-a:visited {
-    color: #28333D;
-    text-decoration: none;
-}
-
-/* mouse over link 
-a:hover {
-  color: #28333D;
-  border-bottom: solid 2px #28333D;
-  display: inline;
-  padding-bottom: 2px;
-       -o-transition: .1s ease-in-out;
-     -moz-transition: .1s ease-in-out;
-  -webkit-transition: .1s ease-in-out;
-          transition: .1s ease-in-out;
-}
-*/
-
-/* selected link */
-a:active {
-    color: #28333D;
-    text-decoration: none;
-}
-
-
-
 /*
   Simple Grid
   Learn More - http://dallasbass.com/simple-grid-a-lightweight-responsive-css-grid/
@@ -84,6 +12,9 @@ a:active {
 	box-sizing: border-box;
 }
 
+body {
+	margin: 0px;
+}
 
 [class*='col-'] {
 	float: left;
@@ -92,7 +23,7 @@ a:active {
 
 .grid {
 	width: 100%;
-	max-width: 1239px;
+	max-width: 1140px;
 	min-width: 755px;
 	margin: 0 auto;
 	overflow: hidden;
@@ -106,7 +37,7 @@ a:active {
 
 .grid-pad {
 	padding-top: 20px;
-	padding-left: 0px; /* grid-space to left */
+	padding-left: 20px; /* grid-space to left */
 	padding-right: 0px; /* grid-space to right: (grid-space-left - column-space) e.g. 20px-20px=0 */
 }
 
@@ -356,4 +287,3 @@ a:active {
 		height: 0;
 	}
 }
-
