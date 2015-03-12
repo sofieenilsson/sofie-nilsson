@@ -1,53 +1,56 @@
 
 body {
 	font-family: 'Montserrat', sans-serif;
-	background: #FCFCFC;
-	color: #28333D;
+	background: #F9F9F9;
+  color: #28333D;
 }
 
-p {
+/* Main */
+
+.content {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.about-head {
+  font-size: 30px;  
+  margin: 0 auto;
+}
+
+.about {
   font-size: 20px;
   line-height: 30px;
-  margin-top: 150px;
-  margin-bottom: 15px;
   width: 700px;
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
 }
 
-
-
-h2 {
-  font-size: 20px;
-  line-height: 30px;
-  margin-bottom: 0px;
-}
-
-img {
-  vertical-align: text-top;
-  margin-top: 15px;
-}
-
-.education, .experience {
-	padding: 0px;
-  text-align: left;
-  padding-top: 20px;
-  margin-top: 0px;
-}
-
-
-/* C O N T A C T  P A G E */
-
-h3 {
-  font-size: 24px;
-  line-height: 34px;
+footer {
+  background-color: #F9F9F9;
+  height: 60px;
+  padding-top: 10px;
   text-align: center;
-  margin-top: 240px;
+}
+
+#mail {
+  vertical-align: text-bottom;
+  margin: 0px;
+}
+
+#phone {
+  vertical-align: text-bottom;
+  margin: 0px;
 }
 
 
-/* L I N K S */
+
+
+
+
+/* Not in use*/
+
+/* Links */
 
 /* unvisited link */
 a:link {
@@ -77,35 +80,16 @@ a:active {
     text-decoration: none;
 }
 
-
-/* - - L I N K  D I F F E R E N T  C O L O R - - */
-
-A.link {
-  color:#DF00FF;
+/*
+img {
+  vertical-align: text-top;
+  margin-top: 15px;
 }
 
-A.link:link  {
-  text-decoration: none;
-  color: #DF00FF;
+.education, .experience {
+  padding: 0px;
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 0px;
 }
-
-A.link:visited {
-  text-decoration: none; 
-  color: #DF00FF;
-}
-
-A.link:hover {
-  opacity: 0;
-  text-decoration: none; 
-}
-
-A.link:active {
-  text-decoration: none;
-  color: #DF00FF;
-}
-
-
-
-
-
-
+*/
