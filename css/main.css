@@ -7,6 +7,10 @@ html {
 }
 
 /* Main */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .first {
   background-color: #28333D;
   color: #4C6670;
@@ -61,7 +65,7 @@ html {
 
 .next {
   font-family: 'Montserrat', sans-serif;
-  text-align: right;
+  text-align: center;
 }
 
 #arrow {
@@ -69,8 +73,26 @@ html {
   display: inline-block;
 }
 
+.second {
+  background-color: #F9F9F9;
+}
+
+.content {
+  margin-top: 40px;
+}
+
+.nav {
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+
 .project {
   margin-top: 20px;
+}
+
+.project img {
+  max-width: 540px;
 }
 
 /* Project hover */
@@ -98,7 +120,7 @@ html {
 }
 
 .darken img {
-  display: block;    
+  display: block;
   -webkit-transition: 0.2s linear;
      -moz-transition: 0.2s linear;
       -ms-transition: 0.2s linear;
@@ -143,5 +165,11 @@ html {
 
 /* Footer */
 #footer {
-  /* Fix this */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #9D9D9C;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
+
