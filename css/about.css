@@ -9,7 +9,7 @@ body {
 
 .content {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 80px;
 }
 
 .about-head {
@@ -20,17 +20,38 @@ body {
 .about {
   font-size: 20px;
   line-height: 30px;
-  width: 700px;
+  width: 900px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 10px;
 }
 
+li {
+  text-align: left;
+  list-style: none;
+}
+
+.education-head, .experience-head {
+  padding: 0px;
+  text-align: left;
+  padding-top: 20px;
+  margin-top: 0px;
+}
+
+.year {
+  margin-top: 20px;
+}
+
 footer {
   background-color: #F9F9F9;
   height: 60px;
-  padding-top: 10px;
+  padding-top: 60px;
   text-align: center;
+}
+
+.hi-footer {
+  margin-top: 40px;
+  margin-bottom: 10px;
 }
 
 #mail {
@@ -42,8 +63,6 @@ footer {
   vertical-align: text-bottom;
   margin: 0px;
 }
-
-
 
 
 
@@ -84,12 +103,5 @@ a:active {
 img {
   vertical-align: text-top;
   margin-top: 15px;
-}
-
-.education, .experience {
-  padding: 0px;
-  text-align: left;
-  padding-top: 20px;
-  margin-top: 0px;
 }
 */
