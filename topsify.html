@@ -1,60 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<title>sofie nilsson / designer</title>
+		<title>sofie nilsson / creative mind</title>
 
-	<!-- M E T A -->
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<meta charset="utf-8">
 
-	<!-- C S S -->
-		<link rel="stylesheet" type="text/css" href="css/project-page.css">
-		<link rel="stylesheet" type="text/css" href="css/grid.css">
-		<link rel="stylesheet" type="text/css" href="css/nav.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/topsify.css">
 		<link rel="stylesheet" type="text/css" href="css/btt.css">
 		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
 	</head>
 
-<!-- B O D Y -->
 	<body>
-		<div class="grid grid-pad">
-		<!-- L E F T  G R I D-->
-			<div class="col-1-2">
-				<div class="content">
-					<h1>Topsify Cover Artwork</h1>
-	        		<h2>Cover artwork for Topsify's playlists on Spotify.</h2>
-	        	<!-- P R O J E C T  D E S C R I P T I O N -->
-					<h3>Brief:</h3>
-					<h2>Topsify is a music brand with a target audience of men and women between 15-30 years old. To grow even more they want to optimize their playlist's cover artworks.</h2>
-					<h4>Goals:</h4>
-					<h2>The overall goal was to optimize Topsify's playlist’s cover arts to make them more unique and appealing to the Spotify users. This to be able to attract new users to our playlists.</h2>
-					<li>&nbsp;</li>
-					<h2>I made three covers with custom typography.</h2>
-				</div>
-			<!-- P H O T O S -->
-				<img class="bigphoto" src="img/topsify-hiphop.png" alt="waw-project">
-				<img class="smallphoto" src="img/topsify-fresh.png" alt="waw-project">
+		<div class="container">
+			
+			<!-- Navigation-->
+			<div class="left-nav pull-left">
+				<a href="#"><img class="arrow" src="img/arrow-left.png" alt="#"></a>
 			</div>
+	
+			<div class="right-nav pull-right">
+				<a href="#"><img class="arrow-nav" src="img/arrow-left.png" alt="#"></a> 
+				<a href="#"><img class="arrow-nav" src="img/arrow-right.png" alt="#"></a> 
+			</div>
+	
+			<!-- Content -->
+			<div class="col-md-6 title">
 
-		<!-- R I G H T  G R I D-->
-	    	<div class="col-1-2">
-	       		<div class="content">
-				<img class="smallphoto2" src="img/topsify-tophits.png" alt="waw-project">
-	       		</div>
-	    	</div>
+				<h1>Topsify Cover Artwork</h1>
+				<p>Topsify is a music brand with a target audience of men and women between 15-30 years old. To grow even more they want to optimize their playlist's cover artworks.</p>
+          		
+          		<h2>Goals:</h2>
+          		<p>The overall goal was to optimize Topsify's playlist’s cover arts to make them more unique and appealing to the Spotify users. This to be able to attract new users to our playlists.</p>
+
+	        	<p>Custom made typography</p>
+
+			</div>
 		</div>
 
-	<!-- B A C K  T O  T O P  B U T T O N -->
+		<!-- Photos -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img class="img-responsive" src="img/cover/hiphop.png" alt="">
+				</div>
+
+				<div class="col-md-6">
+					<img class="img-responsive" src="img/topsify-fresh.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<img id="bigphoto" class="img-responsive" src="img/topsify-tophits.png" alt="">
+				</div>
+			</div>
+		</div>
+
+		<footer>
+			<p id="footer">
+				hello@sofienilsson.se // +46 704 48 88 03 // All work © Sofie Nilsson
+			</p>
+		</footer>
+
+
+	<!-- Back to top -->
 	<a href="#0" class="cd-top">Top</a>
 	<script src="js/backtotop.js"></script>
 
-	<!-- M E N U - J S -->
-	<script>
-		$(document).ready(function(){
-		$('#nav-icon1,#nav-icon2,#nav-icon3,#nav-icon4').click(function(){
-			$(this).toggleClass('open');
-		});
-	});
-	</script>
 	</body>
 </html>
