@@ -3,10 +3,6 @@
 @import "darken.scss";
 @import "vars.scss";
 
-html {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 .intro, .project-title, .next, .nav {
   font-family: $font-stack;
@@ -14,7 +10,7 @@ html {
 }
 
 .first {
-  background-color: #00CC9B;
+  background-color: $black;
   color: #4C6670;
   height: 100vh;
 }
@@ -40,7 +36,7 @@ html {
 
 //Link fade
 .fade-out {
-  color: $pink;
+  color: $purple;
   display: inline;
   text-decoration: none;
   transition: .3s ease-in-out;
@@ -49,7 +45,7 @@ html {
     text-decoration: none;
   }
   &:visited {
-    color: $pink;
+    color: $purple;
     text-decoration: none;
   }
 }
@@ -58,9 +54,14 @@ h2 {
   font-size: 20px;
 }
 
+p {
+  color: #FFF;
+  font-size: 14px;
+}
+
 .next {
   text-align: center;
-  margin-top: 210px;
+  margin-top: 230px;
   #arrow {
     width: 24px;
     display: inline-block;
