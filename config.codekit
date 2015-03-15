@@ -475,6 +475,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/topsify-hiphop.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/topsify-hiphop.jpg",
+		"outputAbbreviatedPath": "\/img\/topsify-hiphop.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/topsify-hiphop.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -482,6 +493,28 @@
 		"initialSize": 51413,
 		"inputAbbreviatedPath": "\/img\/topsify-hiphop.png",
 		"outputAbbreviatedPath": "\/img\/topsify-hiphop.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/topsify-spotify.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/topsify-spotify.png",
+		"outputAbbreviatedPath": "\/img\/topsify-spotify.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/topsify-spotify2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/topsify-spotify2.png",
+		"outputAbbreviatedPath": "\/img\/topsify-spotify2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -34,7 +34,8 @@
           		<h2>Goals:</h2>
           		<p>The overall goal was to optimize Topsify's playlist’s cover arts to make them more unique and appealing to the Spotify users. This to be able to attract new users to our playlists.</p>
 
-	        	<p>Custom made typography</p>
+	        	<h2>End product:</h2>
+	        	<p>Cover artwork with custom made typography.</p>
 
 			</div>
 		</div>
@@ -42,24 +43,54 @@
 		<!-- Photos -->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-6">
-					<img class="img-responsive" src="img/cover/hiphop.png" alt="">
+				<div class="col-md-4">
+					<a data-toggle="modal" data-target=".topsify-hiphop" href=""><img class="img-responsive" src="img/topsify-hiphop.png" alt=""></a>
 				</div>
 
-				<div class="col-md-6">
-					<img class="img-responsive" src="img/topsify-fresh.png" alt="">
+				<div class="col-md-4">
+					<a data-toggle="modal" data-target=".topsify-fresh" href=""><img class="img-responsive" src="img/topsify-fresh.png" alt=""></a>
+				</div>
+
+				<div class="col-md-4">
+					<a data-toggle="modal" data-target=".topsify-tophits" href=""><img class="img-responsive" src="img/topsify-tophits.png" alt=""></a>
 				</div>
 			</div>
 		</div>
 
-		<div class="container">
-			<div class="row">
+		<div class="container-fluid">
+			<div class="first-content container">
 				<div class="col-md-12">
-					<img id="bigphoto" class="img-responsive" src="img/topsify-tophits.png" alt="">
+					<img class="img-responsive photo" src="img/topsify-spotify2.png" alt="">
 				</div>
 			</div>
 		</div>
 
+		<!-- Photo enlarge -->
+		<div class="modal fade topsify-hiphop" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+				<img class="img-responsive" src="img/topsify-hiphop.png" alt="">
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade topsify-fresh" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+				<img class="img-responsive" src="img/topsify-fresh.png" alt="">
+		    </div>
+		  </div>
+		</div>
+
+		<div class="modal fade topsify-tophits" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+		  <div class="modal-dialog modal-lg">
+		    <div class="modal-content">
+				<img class="img-responsive" src="img/topsify-tophits.png" alt="">
+		    </div>
+		  </div>
+		</div>
+
+		<!-- Footer -->
 		<footer>
 			<p id="footer">
 				hello@sofienilsson.se // +46 704 48 88 03 // All work © Sofie Nilsson
@@ -70,6 +101,8 @@
 	<!-- Back to top -->
 	<a href="#0" class="cd-top">Top</a>
 	<script src="js/backtotop.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
 
 	</body>
 </html>

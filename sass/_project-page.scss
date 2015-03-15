@@ -6,7 +6,7 @@ body {
 }
 
 .title {
-	margin: 120px 0 20px 0;
+	margin: 120px 0 20px -34px;
 	h1 {
 		font-family: $font-stack;
 		font-weight: 700;
@@ -56,15 +56,21 @@ body {
 }
 
 .arrow-nav {
-	margin-left: 12px;
+	margin-left: 18px;
 }
 
-#bigphoto {
+.row {
+	margin-top: 20px;
+}
+
+.photo {
+	max-width: 1140px;
 	margin-top: 30px;
+	margin-left: -15px;
 }
 
 footer {
-  background-color: #F9F9F9;
+  background-color: #FCFCFC;
   height: 60px;
   padding-top: 20px;
 }

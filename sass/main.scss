@@ -54,12 +54,17 @@ html {
   }
 }
 
+h2 {
+  font-size: 20px;
+}
+
 .next {
   text-align: center;
-  margin-top: 80px;
+  margin-top: 210px;
   #arrow {
     width: 24px;
     display: inline-block;
+    width: 60px;
   }
 }
 
