@@ -11,7 +11,6 @@
 
 .first {
   background-color: $black;
-  color: #4C6670;
   height: 100vh;
 }
 
@@ -20,7 +19,7 @@
 }
 
 .intro {
-  color: #F6F6F6;
+  color: $white;
 	font-size: 3.8em;
   line-height: 66px;
   transition: .5s;
@@ -31,7 +30,7 @@
 }
 
 .cm {
-  color: $pink;
+  color: $purple;
 }
 
 //Link fade
@@ -65,9 +64,22 @@ p {
   #arrow {
     width: 24px;
     display: inline-block;
+    margin-bottom: 50px;
     width: 60px;
   }
 }
+
+
+//Animate down
+.up {
+    width:100px;
+}
+
+.down {
+    width:100px;
+}
+//animate down
+
 
 .second {
   background-color: #F9F9F9;

@@ -1,0 +1,1 @@
+$("#up, #down").on("click",function(o){o.preventDefault();var t=$("up"==$(this).get(0).id?"#down":"#up");$("html, body").stop().animate({scrollTop:t.offset().top},1e3)});

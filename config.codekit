@@ -38,6 +38,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/animate.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/animate.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/btt.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -346,6 +355,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/elements\/instagram.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1175,
+		"inputAbbreviatedPath": "\/img\/elements\/instagram.png",
+		"outputAbbreviatedPath": "\/img\/elements\/instagram.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/elements\/linkedin.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -353,6 +373,17 @@
 		"initialSize": 7924,
 		"inputAbbreviatedPath": "\/img\/elements\/linkedin.png",
 		"outputAbbreviatedPath": "\/img\/elements\/linkedin.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/elements\/smallarrow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 865,
+		"inputAbbreviatedPath": "\/img\/elements\/smallarrow.png",
+		"outputAbbreviatedPath": "\/img\/elements\/smallarrow.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -375,6 +406,17 @@
 		"initialSize": 18136,
 		"inputAbbreviatedPath": "\/img\/elements\/vimeo.png",
 		"outputAbbreviatedPath": "\/img\/elements\/vimeo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/headshot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182722,
+		"inputAbbreviatedPath": "\/img\/headshot.png",
+		"outputAbbreviatedPath": "\/img\/headshot.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
