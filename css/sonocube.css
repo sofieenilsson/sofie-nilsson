@@ -11,8 +11,12 @@ html {
 body {
   background: #FCFCFC; }
 
+.content {
+  max-width: 720px; }
+
 .title {
-  margin: 120px 0 20px -34px; }
+  margin: 100px 0 20px -34px;
+  padding-left: 33px; }
   .title h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -30,40 +34,59 @@ body {
     font-weight: 400;
     margin-bottom: 10px;
     line-height: 24px; }
-  .title a {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 700;
-    text-decoration: none;
-    transition: .3s; }
-    .title a:link {
-      color: #a000ff; }
-    .title a:visited {
-      color: #a000ff;
-      text-decoration: inherit; }
-    .title a:hover, .title a:active {
-      color: #FFF;
-      text-decoration: inherit; }
   .title .tagline {
     color: #C6C6C5;
-    font-style: italic; }
+    font-style: italic;
+    margin-bottom: 20px; }
+
+a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+  transition: .3s; }
+  a:link {
+    color: #a000ff; }
+  a:visited {
+    color: #a000ff;
+    text-decoration: inherit; }
+  a:hover, a:active {
+    color: #FFF;
+    text-decoration: inherit; }
 
 li {
-  list-style: none; }
+  list-style: none;
+  display: inline-block; }
 
-.arrow, .arrow-nav {
-  max-width: 20px;
-  margin-top: 30px; }
-
-.arrow-nav {
-  margin-left: 18px; }
+.bildtext {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center; }
 
 .row {
   margin-top: 20px; }
 
 .photo {
-  max-width: 1140px;
   margin-top: 30px;
-  margin-left: -15px; }
+  margin-left: -15px;
+  width: 1200px; }
+
+.navigation {
+  margin-top: 30px; }
+
+.nav {
+  padding-left: 0px; }
+
+.home {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px; }
+
+.smallarrow {
+  max-width: 20px;
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-right: 40px;
+  margin-left: 40px; }
 
 footer {
   background-color: #FCFCFC;
@@ -73,8 +96,16 @@ footer {
 #footer {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  color: #C9C9C9;
+  color: #aaaaaa;
   text-align: center; }
+
+.cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1; }
+
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5; }
 
 *, *:before, *:after {
   -webkit-box-sizing: border-box;

@@ -60,11 +60,10 @@ p {
 
 .next {
   text-align: center;
-  margin-top: 230px;
+
   #arrow {
     width: 24px;
     display: inline-block;
-    margin-bottom: 50px;
     width: 60px;
   }
 }
@@ -100,7 +99,7 @@ footer {
 #footer {
   font-family: $font-stack;
   font-size: 12px;
-  color: #C9C9C9;
+  color: $grey;
   text-align: center;
 }
 
@@ -108,4 +107,9 @@ footer {
 .cd-top.cd-is-visible {
   visibility: visible;
   opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
 }

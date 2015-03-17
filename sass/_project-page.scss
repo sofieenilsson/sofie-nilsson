@@ -5,8 +5,13 @@ body {
 	background: #FCFCFC;
 }
 
+.content {
+	max-width: 720px;
+}
+
 .title {
-	margin: 120px 0 20px -34px;
+	margin: 100px 0 20px -34px;
+	padding-left: 33px;
 	h1 {
 		font-family: $font-stack;
 		font-weight: 700;
@@ -30,7 +35,14 @@ body {
 		line-height: 24px;
 	}
 
-	a {
+	.tagline {
+		color: #C6C6C5;
+		font-style: italic;
+		margin-bottom: 20px;
+	}
+}
+
+a {
 	font-family: $font-stack;
 	font-weight: 700;
 	text-decoration: none;
@@ -48,24 +60,17 @@ body {
 		}
 	}
 
-	.tagline {
-		color: #C6C6C5;
-		font-style: italic;
-	}
-}
-
 
 li {
 	list-style: none;
+	display: inline-block;
 }
 
-.arrow, .arrow-nav {
-	max-width: 20px;
-	margin-top: 30px;
-}
-
-.arrow-nav {
-	margin-left: 18px;
+.bildtext {
+	font-family: $font-stack;
+	font-size: 14px;
+	font-style: italic;
+	text-align: center;
 }
 
 .row {
@@ -73,9 +78,30 @@ li {
 }
 
 .photo {
-	max-width: 1140px;
 	margin-top: 30px;
 	margin-left: -15px;
+	width: 1200px;
+}
+
+.navigation {
+	margin-top: 30px;
+}
+
+.nav {
+	padding-left: 0px;
+}
+
+.home {
+	font-family: $font-stack;
+	font-size: 15px;
+}
+
+.smallarrow {
+  max-width: 20px;
+  display: inline-block;
+  margin-bottom: 2px;
+  margin-right: 40px;
+  margin-left: 40px;
 }
 
 footer {
@@ -87,6 +113,17 @@ footer {
 #footer {
   font-family: $font-stack;
   font-size: 12px;
-  color: #C9C9C9;
+  color: $grey;
   text-align: center;
+}
+
+//Back to top
+.cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
 }
