@@ -8,6 +8,15 @@ html {
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
+.fade-body {
+  animation: fade 1s ease-in-out; }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+
+  100% {
+    opacity: 100; } }
 body {
   background: #FCFCFC; }
 
@@ -107,6 +116,16 @@ footer {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5; }
 
+@media screen and (max-width: 750px) {
+  .title {
+    margin-top: 50px; }
+
+  iframe {
+    width: 450px;
+    height: 200px; } }
+@media screen and (max-width: 640px) {
+  .title {
+    margin-top: 50px; } }
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;

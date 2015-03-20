@@ -1,6 +1,15 @@
 @import "fonts.scss";
 @import "vars.scss";
 
+
+.fade-body {
+  animation: fade 1s ease-in-out;
+}
+@keyframes fade {
+  0%     { opacity: 0   }
+  100%   { opacity: 100 }
+}
+
 body {
 	background: #F9F9F9;
 }
@@ -85,6 +94,7 @@ ul {
 
 .social {
   margin-top: 6px;
+  margin-right: 20px;
 }
 
 .back {
@@ -116,3 +126,39 @@ ul {
     }
 }
 
+//Big phone (iPhone 6)
+@media screen and (max-width: 750px) {
+  .contact {
+    margin-top: -6px;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+
+  .social {
+    margin-top: 35px;
+    margin-right: 90px;
+  }
+}
+
+
+//Small phone (iPhone 4s)
+@media screen and (max-width: 640px) {
+  .contact {
+    margin-top: -6px;
+    margin-left: 20px;
+    font-size: 15px;
+  }
+
+  .social {
+    margin-top: 35px;
+    margin-left: -50px;
+  }
+
+  footer {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-left: -10px;
+  }
+}

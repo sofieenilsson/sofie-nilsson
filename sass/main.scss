@@ -4,6 +4,14 @@
 @import "vars.scss";
 
 
+.fade-body {
+  animation: fade 1s ease-in-out;
+}
+@keyframes fade {
+  0%     { opacity: 0   }
+  100%   { opacity: 100 }
+}
+
 .intro, .project-title, .next, .nav {
   font-family: $font-stack;
   font-weight: 700;
@@ -36,17 +44,16 @@
 //Link fade
 .fade-out {
   color: $purple;
-  display: inline;
   text-decoration: none;
   transition: .3s ease-in-out;
-  &:hover, &:active {
-    opacity: 0;
-    text-decoration: none;
-  }
-  &:visited {
-    color: $purple;
-    text-decoration: none;
-  }
+    &:hover, &:active {
+      opacity: 0;
+      text-decoration: none;
+    }
+    &:visited {
+      color: $purple;
+      text-decoration: none;
+    }
 }
 
 h2 {
@@ -60,12 +67,7 @@ p {
 
 .next {
   text-align: center;
-
-  #arrow {
-    width: 24px;
-    display: inline-block;
-    width: 60px;
-  }
+  width: 50px;
 }
 
 
@@ -112,4 +114,51 @@ footer {
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
+}
+
+//Small phone
+@media screen and (max-width: 312px) {
+  .intro {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .nav {
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+
+  }
+}
+
+
+//Big phone (iPhone 6)
+@media screen and (max-width: 750px) {
+  .intro {
+    font-size: 40px;
+    line-height: 52px;
+  }
+
+  .nav {
+    font-size: 25px;
+    line-height: 33px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+  }
+}
+
+//Small phone (iPhone 4s)
+@media screen and (max-width: 640px) {
+  .intro {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .nav {
+    font-size: 22px;
+    line-height: 30px;
+    margin-top: 45px;
+    margin-bottom: 25px;
+  }
 }

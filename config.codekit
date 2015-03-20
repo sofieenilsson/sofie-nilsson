@@ -65,6 +65,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/fatta.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/fatta.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/getsetgo.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -173,6 +182,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/fatta.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/fatta.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/getsetgo.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -193,44 +211,11 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/cover\/bringhome2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 109530,
-		"inputAbbreviatedPath": "\/img\/cover\/bringhome2.png",
-		"outputAbbreviatedPath": "\/img\/cover\/bringhome2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/cover\/bringhomethecash.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 262277,
-		"inputAbbreviatedPath": "\/img\/cover\/bringhomethecash.png",
-		"outputAbbreviatedPath": "\/img\/cover\/bringhomethecash.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/cover\/cats.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 356546,
-		"inputAbbreviatedPath": "\/img\/cover\/cats.png",
-		"outputAbbreviatedPath": "\/img\/cover\/cats.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/cover\/fatta.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 332351,
+		"initialSize": 1.40618e+06,
 		"inputAbbreviatedPath": "\/img\/cover\/fatta.png",
 		"outputAbbreviatedPath": "\/img\/cover\/fatta.png",
 		"outputPathIsOutsideProject": 0,
@@ -248,17 +233,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/cover\/getsetgo2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 371019,
-		"inputAbbreviatedPath": "\/img\/cover\/getsetgo2.png",
-		"outputAbbreviatedPath": "\/img\/cover\/getsetgo2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/cover\/hiphop.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -270,28 +244,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/cover\/husriket.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 15064,
-		"inputAbbreviatedPath": "\/img\/cover\/husriket.png",
-		"outputAbbreviatedPath": "\/img\/cover\/husriket.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/cover\/ladyfest.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 134274,
-		"inputAbbreviatedPath": "\/img\/cover\/ladyfest.png",
-		"outputAbbreviatedPath": "\/img\/cover\/ladyfest.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/cover\/mecenat.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -299,28 +251,6 @@
 		"initialSize": 631799,
 		"inputAbbreviatedPath": "\/img\/cover\/mecenat.png",
 		"outputAbbreviatedPath": "\/img\/cover\/mecenat.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/cover\/scenkonstguiden.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 11360,
-		"inputAbbreviatedPath": "\/img\/cover\/scenkonstguiden.png",
-		"outputAbbreviatedPath": "\/img\/cover\/scenkonstguiden.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/cover\/sonocube.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 439101,
-		"inputAbbreviatedPath": "\/img\/cover\/sonocube.png",
-		"outputAbbreviatedPath": "\/img\/cover\/sonocube.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -523,6 +453,215 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/playground\/bananaboard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 187048,
+		"inputAbbreviatedPath": "\/img\/playground\/bananaboard.png",
+		"outputAbbreviatedPath": "\/img\/playground\/bananaboard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/bringhome.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109530,
+		"inputAbbreviatedPath": "\/img\/playground\/bringhome.png",
+		"outputAbbreviatedPath": "\/img\/playground\/bringhome.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/cats.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 356546,
+		"inputAbbreviatedPath": "\/img\/playground\/cats.png",
+		"outputAbbreviatedPath": "\/img\/playground\/cats.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/fakefuture.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 102687,
+		"inputAbbreviatedPath": "\/img\/playground\/fakefuture.png",
+		"outputAbbreviatedPath": "\/img\/playground\/fakefuture.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/foot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26624,
+		"inputAbbreviatedPath": "\/img\/playground\/foot.png",
+		"outputAbbreviatedPath": "\/img\/playground\/foot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/haters.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61570,
+		"inputAbbreviatedPath": "\/img\/playground\/haters.png",
+		"outputAbbreviatedPath": "\/img\/playground\/haters.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/icecream.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93566,
+		"inputAbbreviatedPath": "\/img\/playground\/icecream.png",
+		"outputAbbreviatedPath": "\/img\/playground\/icecream.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/lamp-icon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47515,
+		"inputAbbreviatedPath": "\/img\/playground\/lamp-icon.png",
+		"outputAbbreviatedPath": "\/img\/playground\/lamp-icon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/life.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 46533,
+		"inputAbbreviatedPath": "\/img\/playground\/life.png",
+		"outputAbbreviatedPath": "\/img\/playground\/life.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/nosignal.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/playground\/nosignal.png",
+		"outputAbbreviatedPath": "\/img\/playground\/nosignal.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/owl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 71233,
+		"inputAbbreviatedPath": "\/img\/playground\/owl.png",
+		"outputAbbreviatedPath": "\/img\/playground\/owl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/peeps.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/playground\/peeps.png",
+		"outputAbbreviatedPath": "\/img\/playground\/peeps.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/rainbow.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41047,
+		"inputAbbreviatedPath": "\/img\/playground\/rainbow.png",
+		"outputAbbreviatedPath": "\/img\/playground\/rainbow.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/robot.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54548,
+		"inputAbbreviatedPath": "\/img\/playground\/robot.png",
+		"outputAbbreviatedPath": "\/img\/playground\/robot.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/skater.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 48407,
+		"inputAbbreviatedPath": "\/img\/playground\/skater.png",
+		"outputAbbreviatedPath": "\/img\/playground\/skater.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/spaceinvaders1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 177568,
+		"inputAbbreviatedPath": "\/img\/playground\/spaceinvaders1.png",
+		"outputAbbreviatedPath": "\/img\/playground\/spaceinvaders1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/sun.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 77473,
+		"inputAbbreviatedPath": "\/img\/playground\/sun.png",
+		"outputAbbreviatedPath": "\/img\/playground\/sun.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/unicorn.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37521,
+		"inputAbbreviatedPath": "\/img\/playground\/unicorn.png",
+		"outputAbbreviatedPath": "\/img\/playground\/unicorn.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/playground\/yeah.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/playground\/yeah.png",
+		"outputAbbreviatedPath": "\/img\/playground\/yeah.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/boulebar\/boulebar-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -530,6 +669,50 @@
 		"initialSize": 1.20696e+06,
 		"inputAbbreviatedPath": "\/img\/projects\/boulebar\/boulebar-big.png",
 		"outputAbbreviatedPath": "\/img\/projects\/boulebar\/boulebar-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/fatta\/fatta-big.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 841406,
+		"inputAbbreviatedPath": "\/img\/projects\/fatta\/fatta-big.png",
+		"outputAbbreviatedPath": "\/img\/projects\/fatta\/fatta-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/fatta\/fatta-release.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/fatta\/fatta-release.png",
+		"outputAbbreviatedPath": "\/img\/projects\/fatta\/fatta-release.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/fatta\/fatta-release2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/fatta\/fatta-release2.png",
+		"outputAbbreviatedPath": "\/img\/projects\/fatta\/fatta-release2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/fatta\/fatta.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/fatta\/fatta.png",
+		"outputAbbreviatedPath": "\/img\/projects\/fatta\/fatta.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -607,6 +790,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/projects\/mecenat\/mecenat-skyline.png",
 		"outputAbbreviatedPath": "\/img\/projects\/mecenat\/mecenat-skyline.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/mecenat\/mecenat-skyline2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26419,
+		"inputAbbreviatedPath": "\/img\/projects\/mecenat\/mecenat-skyline2.png",
+		"outputAbbreviatedPath": "\/img\/projects\/mecenat\/mecenat-skyline2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -699,6 +893,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/projects\/paraply.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/paraply.png",
+		"outputAbbreviatedPath": "\/img\/projects\/paraply.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/sonocube\/10721000_10152711785376023_1378165890_n.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -732,6 +937,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/projects\/sonocube\/sonocube-final.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/sonocube\/sonocube-final.png",
+		"outputAbbreviatedPath": "\/img\/projects\/sonocube\/sonocube-final.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/sonocube\/sonocube-logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -761,17 +977,6 @@
 		"initialSize": 70725,
 		"inputAbbreviatedPath": "\/img\/projects\/sonocube\/sonocube-process2.jpg",
 		"outputAbbreviatedPath": "\/img\/projects\/sonocube\/sonocube-process2.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/projects\/thrift\/thrift.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 13133,
-		"inputAbbreviatedPath": "\/img\/projects\/thrift\/thrift.png",
-		"outputAbbreviatedPath": "\/img\/projects\/thrift\/thrift.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -860,6 +1065,17 @@
 		"initialSize": 369850,
 		"inputAbbreviatedPath": "\/img\/projects\/waw\/waw-app.png",
 		"outputAbbreviatedPath": "\/img\/projects\/waw\/waw-app.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/waw\/waw-app2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/waw\/waw-app2.png",
+		"outputAbbreviatedPath": "\/img\/projects\/waw\/waw-app2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1086,6 +1302,22 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 3,
 		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/sass\/fatta.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 5,
+		"fileType": 4,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sass\/fatta.scss",
+		"outputAbbreviatedPath": "\/css\/fatta.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
