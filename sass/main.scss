@@ -18,6 +18,9 @@
 }
 
 .first {
+  background: url('http://placekitten.com/2000'); //Replace image link here with real image @ <2000px width
+  background-position: center;
+  background-size: cover;
   background-color: $black;
   height: 100vh;
 }
