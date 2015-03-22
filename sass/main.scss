@@ -18,6 +18,9 @@
 }
 
 .first {
+  background: url('img/background.png'); //Replace image link here with real image @ <2000px width
+  background-position: center;
+  background-size: cover;
   background-color: $purple;
   height: 100vh;
 }
