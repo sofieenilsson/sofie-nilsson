@@ -18,15 +18,31 @@
 }
 
 .first {
-  background: url('http://placekitten.com/2000'); //Replace image link here with real image @ <2000px width
+  background: url('../img/background.png'); //Replace image link here with real image @ <2000px width
   background-position: center;
   background-size: cover;
-  background-color: $black;
+  background-color: $purple;
   height: 100vh;
 }
 
+h1, h2 {
+  font-family: $font-stack;
+  font-weight: bold;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, .5);
+  color: white;
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+  text-align: left !important;
+  line-height: 48px;
+}
+
+h2 {
+  margin-top: 0px;
+}
+
 .first-content {
-  margin-top: 15%;
+  margin-top: 3%;
 }
 
 .intro {
@@ -41,7 +57,7 @@
 }
 
 .cm {
-  color: $purple;
+  color: $white;
 }
 
 //Link fade
@@ -136,26 +152,13 @@ footer {
 }
 
 
-//Big phone (iPhone 6)
-@media screen and (max-width: 750px) {
-  .intro {
-    font-size: 40px;
-    line-height: 52px;
-  }
 
-  .nav {
-    font-size: 25px;
-    line-height: 33px;
-    margin-top: 45px;
-    margin-bottom: 25px;
-  }
-}
 
 //Small phone (iPhone 4s)
 @media screen and (max-width: 640px) {
   .intro {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .nav {
