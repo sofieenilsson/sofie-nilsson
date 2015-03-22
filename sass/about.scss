@@ -126,22 +126,8 @@ ul {
     }
 }
 
-//Big phone (iPhone 6)
-@media screen and (max-width: 750px) {
-  .contact {
-    margin-top: -6px;
-    margin-left: 30px;
-    font-size: 17px;
-  }
 
-  .social {
-    margin-top: 35px;
-    margin-right: 90px;
-  }
-}
-
-
-//Small phone (iPhone 4s)
+//Big phone (iPhone 4s)
 @media screen and (max-width: 640px) {
   .contact {
     margin-top: -6px;
@@ -160,5 +146,19 @@ ul {
 
   p {
     margin-left: -10px;
+  }
+}
+
+//Small phone ?
+@media screen and (max-width: 750px) {
+  .contact {
+    margin-top: -6px;
+    margin-left: 30px;
+    font-size: 17px;
+  }
+
+  .social {
+    margin-top: 35px;
+    margin-right: 90px;
   }
 }

@@ -18,7 +18,7 @@
 }
 
 .first {
-  background-color: $black;
+  background-color: $purple;
   height: 100vh;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .cm {
-  color: $purple;
+  color: $white;
 }
 
 //Link fade
@@ -133,26 +133,13 @@ footer {
 }
 
 
-//Big phone (iPhone 6)
-@media screen and (max-width: 750px) {
-  .intro {
-    font-size: 40px;
-    line-height: 52px;
-  }
 
-  .nav {
-    font-size: 25px;
-    line-height: 33px;
-    margin-top: 45px;
-    margin-bottom: 25px;
-  }
-}
 
 //Small phone (iPhone 4s)
 @media screen and (max-width: 640px) {
   .intro {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 24px;
+    line-height: 30px;
   }
 
   .nav {
