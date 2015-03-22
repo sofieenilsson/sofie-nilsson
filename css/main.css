@@ -69,14 +69,28 @@ html {
   font-weight: 700; }
 
 .first {
-  background: url("img/background.png");
+  background: url("../img/background.png");
   background-position: center;
   background-size: cover;
   background-color: #a000ff;
   height: 100vh; }
 
+h1, h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-shadow: 0px 2px 3px rgba(0, 0, 0, 0.5);
+  color: white;
+  max-width: 700px;
+  margin: 0 auto;
+  display: block;
+  text-align: left !important;
+  line-height: 48px; }
+
+h2 {
+  margin-top: 0px; }
+
 .first-content {
-  margin-top: 15%; }
+  margin-top: 3%; }
 
 .intro {
   color: #f6f6f6;
