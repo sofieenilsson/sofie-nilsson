@@ -54,12 +54,12 @@ a {
   text-decoration: none;
   transition: .3s; }
   a:link {
-    color: #a000ff; }
+    color: #e42b3c; }
   a:visited {
-    color: #a000ff;
+    color: #e42b3c;
     text-decoration: inherit; }
   a:hover, a:active {
-    color: #FFF;
+    color: #aaaaaa;
     text-decoration: inherit; }
 
 li {

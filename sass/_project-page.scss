@@ -56,14 +56,14 @@ a {
 	text-decoration: none;
 	transition: .3s;
 		&:link {
-			color: $purple;
+			color: $red;
 		}
 		&:visited {
-			color: $purple;
+			color: $red;
 			text-decoration: inherit;
 		}
 		&:hover, &:active {
-			color: #FFF;
+			color: $grey;
 			text-decoration: inherit;
 		}
 	}

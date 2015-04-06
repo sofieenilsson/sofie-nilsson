@@ -92,6 +92,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/css\/paraply.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/paraply.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/playground.css": {
 		"fileType": 16,
 		"ignore": 0,
@@ -106,6 +115,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/css\/project-page.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/css\/sld.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/sld.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -153,6 +171,17 @@
 		"initialSize": 8.55824e+06,
 		"inputAbbreviatedPath": "\/img\/background.png",
 		"outputAbbreviatedPath": "\/img\/background.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/background1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/background1.png",
+		"outputAbbreviatedPath": "\/img\/background1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -219,6 +248,17 @@
 		"initialSize": 0,
 		"inputAbbreviatedPath": "\/img\/cover\/paraply.png",
 		"outputAbbreviatedPath": "\/img\/cover\/paraply.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/cover\/sld.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22456,
+		"inputAbbreviatedPath": "\/img\/cover\/sld.png",
+		"outputAbbreviatedPath": "\/img\/cover\/sld.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -718,17 +758,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/projects\/memory\/DSC_0197-2.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 637177,
-		"inputAbbreviatedPath": "\/img\/projects\/memory\/DSC_0197-2.png",
-		"outputAbbreviatedPath": "\/img\/projects\/memory\/DSC_0197-2.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/projects\/memory\/memory-face.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -806,6 +835,72 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/projects\/paraply\/paraply-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/paraply\/paraply-logo.png",
+		"outputAbbreviatedPath": "\/img\/projects\/paraply\/paraply-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/paraply\/paraply1.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/paraply\/paraply1.png",
+		"outputAbbreviatedPath": "\/img\/projects\/paraply\/paraply1.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/paraply\/paraply2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 0,
+		"inputAbbreviatedPath": "\/img\/projects\/paraply\/paraply2.png",
+		"outputAbbreviatedPath": "\/img\/projects\/paraply\/paraply2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/sld\/sld-beach.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 332340,
+		"inputAbbreviatedPath": "\/img\/projects\/sld\/sld-beach.png",
+		"outputAbbreviatedPath": "\/img\/projects\/sld\/sld-beach.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/sld\/sld-car.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 73600,
+		"inputAbbreviatedPath": "\/img\/projects\/sld\/sld-car.png",
+		"outputAbbreviatedPath": "\/img\/projects\/sld\/sld-car.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/projects\/sld\/sld-logo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40882,
+		"inputAbbreviatedPath": "\/img\/projects\/sld\/sld-logo.png",
+		"outputAbbreviatedPath": "\/img\/projects\/sld\/sld-logo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/projects\/topsify\/topsify-fresh.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -861,17 +956,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/img\/projects\/waw\/waw-app.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 369850,
-		"inputAbbreviatedPath": "\/img\/projects\/waw\/waw-app.png",
-		"outputAbbreviatedPath": "\/img\/projects\/waw\/waw-app.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/img\/projects\/waw\/waw-app2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -890,17 +974,6 @@
 		"initialSize": 428981,
 		"inputAbbreviatedPath": "\/img\/projects\/waw\/waw-project.png",
 		"outputAbbreviatedPath": "\/img\/projects\/waw\/waw-project.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/img\/projects\/waw\/waw-user.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 120898,
-		"inputAbbreviatedPath": "\/img\/projects\/waw\/waw-user.png",
-		"outputAbbreviatedPath": "\/img\/projects\/waw\/waw-user.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -983,6 +1056,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/memory.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/paraply.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/paraply.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1204,15 +1286,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/sonocube.scss": {
+	"\/sass\/sld.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
 		"decimalPrecision": 5,
 		"fileType": 4,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/sonocube.scss",
-		"outputAbbreviatedPath": "\/css\/sonocube.css",
+		"inputAbbreviatedPath": "\/sass\/sld.scss",
+		"outputAbbreviatedPath": "\/css\/sld.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -1236,22 +1318,6 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
-	"\/sass\/tshirtstore.scss": {
-		"createSourceMap": 0,
-		"debugStyle": 0,
-		"decimalPrecision": 5,
-		"fileType": 4,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/sass\/tshirtstore.scss",
-		"outputAbbreviatedPath": "\/css\/tshirtstore.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"useLibsass": 0
-		},
 	"\/sass\/waw.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1267,6 +1333,15 @@
 		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 0
+		},
+	"\/sld.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/sld.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/topsify.html": {
 		"fileType": 8192,
