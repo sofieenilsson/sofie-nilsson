@@ -14,7 +14,6 @@ html {
 @keyframes fade {
   0% {
     opacity: 0; }
-
   100% {
     opacity: 100; } }
 body {
@@ -23,8 +22,24 @@ body {
 .content {
   max-width: 720px; }
 
+.navClose {
+  -webkit-animation: bounceInDown 1.8s ease-out;
+  -moz-animation: bounceInDown 1.8s ease-out;
+  animation: bounceInDown 1.8s ease-out; }
+
+.back {
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+.goback {
+  max-width: 30px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px; }
+
 .title {
-  margin: 100px 0 20px -34px;
+  margin: 60px 0 20px -34px;
   padding-left: 33px; }
   .title h1 {
     font-family: "Montserrat", sans-serif;
@@ -54,12 +69,12 @@ a {
   text-decoration: none;
   transition: .3s; }
   a:link {
-    color: #e42b3c; }
+    color: #E42B3C; }
   a:visited {
-    color: #e42b3c;
+    color: #E42B3C;
     text-decoration: inherit; }
   a:hover, a:active {
-    color: #aaaaaa;
+    color: #AAAAAA;
     text-decoration: inherit; }
 
 li {
@@ -105,7 +120,7 @@ footer {
 #footer {
   font-family: "Montserrat", sans-serif;
   font-size: 12px;
-  color: #aaaaaa;
+  color: #AAAAAA;
   text-align: center; }
 
 .cd-top.cd-is-visible {
@@ -133,3 +148,5 @@ footer {
 
 h1 {
   max-width: 228px; }
+
+/*# sourceMappingURL=getsetgo.css.map */

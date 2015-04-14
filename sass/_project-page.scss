@@ -17,8 +17,30 @@ body {
 	max-width: 720px;
 }
 
+
+//Go back arrow - animation and size
+.navClose {
+  -webkit-animation:bounceInDown 1.8s ease-out;
+  -moz-animation:bounceInDown 1.8s ease-out;
+  animation:bounceInDown 1.8s ease-out;
+} 
+
+.back {
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.goback {
+  max-width: 30px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+
 .title {
-	margin: 100px 0 20px -34px;
+	margin: 60px 0 20px -34px;
 	padding-left: 33px;
 	h1 {
 		font-family: $font-stack;

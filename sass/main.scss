@@ -18,7 +18,7 @@
 }
 
 .first {
-  background: url('../img/background1.png'); //Replace image link here with real image @ <2000px width
+  background: url('../img/background2.png'); //Replace image link here with real image @ <2000px width
   background-position: center;
   background-size: cover;
   background-color: $black;
@@ -84,17 +84,18 @@ p {
   background-color: #F9F9F9;
 }
 
-.hello {
-  font-size: 50px;
-  font-family: $font-stack;
-  font-weight: 700;
-  margin-top: 80px;
+.container-intro {
+  max-width: 900px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .nav {
-  font-size: 40px;
-  margin-top: 0px;
-  margin-bottom: 70px;
+  font-size: 34px;
+  line-height: 46px;
+  margin-top: 80px;
+  margin-bottom: 80px;
 }
 
 footer {
@@ -110,6 +111,11 @@ footer {
   text-align: center;
 }
 
+.row {
+  margin-bottom:30px;
+}
+
+
 //Back to top
 .cd-top.cd-is-visible {
   visibility: visible;
@@ -117,10 +123,8 @@ footer {
 }
 
 .cd-top.cd-fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
 }
-
 
 
 //Big phone (iPhone 4s)
@@ -135,5 +139,21 @@ footer {
     line-height: 30px;
     margin-top: 45px;
     margin-bottom: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .col-md-4 {
+    margin-bottom:30px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .col-md-4 {
+    margin-bottom:30px;
+  }
+
+  .row {
+    margin-bottom:0;
   }
 }

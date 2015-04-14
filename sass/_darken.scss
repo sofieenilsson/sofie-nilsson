@@ -3,8 +3,7 @@
   opacity: 0.5;
 }
 
-.darken {
-    display: inline-block;
+/*.darken {
     padding: 0;
     position:relative;
     margin-top: 25px;
@@ -12,14 +11,13 @@
     &:hover {
       opacity: 0.5;      
     }
-}
+}*/
 
 .darken:hover {
   opacity: 2;
 }
 
 .darken img {
-  display: block;
   transition: 0.2s ease-in-out;
 }
 
@@ -35,7 +33,8 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   line-height: 120%;
-  font-size: 45px;
+  font-size: 30px;
+  text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   color: #FFF;
