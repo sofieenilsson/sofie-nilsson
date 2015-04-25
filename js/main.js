@@ -1,3 +1,4 @@
+/*
 //Animate down
 $('#up, #down').on('click', function(e){
     e.preventDefault();
@@ -7,8 +8,6 @@ $('#up, #down').on('click', function(e){
     }, 1000);
 });
 
-
-/*
 //Change background color
 var randomColor = function () {
 	var colors = ['#A000FF', '#00B7FF', '#FF00F9', '#FF9D00', '#00CC9B'];
