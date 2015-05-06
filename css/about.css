@@ -1,4 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -24,12 +25,11 @@ body {
 .container {
   max-width: 860px; }
 
-h1, h2, p {
-  font-family: "Montserrat", sans-serif;
-  color: #303030; }
+h1, h2 {
+  font-family: "Montserrat", sans-serif; }
 
 h1 {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 28px;
   font-weight: 700;
   max-width: 340px;
@@ -49,7 +49,8 @@ h2 {
   margin-top: 20px; }
 
 p {
-  font-weight: 400;
+  font-family: "Varela Round", sans-serif;
+  color: #303030;
   font-size: 15px;
   line-height: 30px;
   margin-top: 20px; }

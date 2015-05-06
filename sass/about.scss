@@ -20,13 +20,12 @@ body {
   max-width: 860px;
 }
 
-h1, h2, p {
+h1, h2 {
   font-family: $font-stack;
-  color: $lightblack;
 }
 
 h1 {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 28px;
   font-weight: 700;
   max-width: 340px;
@@ -35,21 +34,13 @@ h1 {
   margin-top: 60px;
 }
 
-/*
-h2 {
-  font-weight: 700;
-  font-size: 18px;
-  text-align: center;
-  margin-top: 30px;
-}
-*/
-
 .text {
   margin-top: 20px;
 }
 
 p {
-  font-weight: 400;
+  font-family: $font-text;
+  color: $lightblack;
   font-size: 15px;
   line-height: 30px;
   margin-top: 20px;
