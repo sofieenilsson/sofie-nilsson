@@ -1,6 +1,8 @@
+
 @import "fonts.scss";
 @import "vars.scss";
 
+/*
 .fade-body {
   animation: fade 1s ease-in-out;
 }
@@ -8,6 +10,7 @@
   0%     { opacity: 0   }
   100%   { opacity: 100 }
 }
+*/
 
 body {
 	background: $white;
@@ -121,6 +124,7 @@ li {
 
 .navigation {
 	margin-top: 30px;
+	text-align: center;
 }
 
 .nav {

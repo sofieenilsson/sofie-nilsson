@@ -171,8 +171,24 @@ p {
   background-color: #F9F9F9; }
 
 .third-content {
-  max-width: 1040px;
+  max-width: 1200px;
   margin-top: 120px; }
+
+.project-title {
+  font-family: "Montserrat", sans-serif;
+  color: #5B5B5B;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 0px; }
+
+.description {
+  font-size: 12px;
+  color: #5B5B5B;
+  font-style: italic;
+  text-align: center; }
 
 .social {
   margin-top: 50px;

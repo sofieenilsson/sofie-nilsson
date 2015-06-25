@@ -128,8 +128,26 @@ p {
 }
 
 .third-content {
-  max-width: 1040px;
+  max-width: 1200px;
   margin-top: 120px;
+}
+
+.project-title {
+  font-family: $font-stack;
+  color: $dark-grey;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+.description {
+  font-size: 12px;
+  color: $dark-grey;
+  font-style: italic;
+  text-align: center;
 }
 
 .social {
