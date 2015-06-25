@@ -2,14 +2,15 @@
 @import "vars.scss";
 
 h1 {
-	max-width: 330px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 130px;
 }
 
 .tagline {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+.row {
+	margin-top: 50px;
 }

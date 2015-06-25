@@ -18,23 +18,22 @@ html {
   100% {
     opacity: 100; } }
 body {
-  background: #FCFCFC; }
+  background: #F9F9F9; }
 
 .content {
-  max-width: 720px; }
+  max-width: 920px;
+  margin-bottom: 30px; }
+
+.img-content {
+  max-width: 1000px; }
 
 .navClose {
   -webkit-animation: bounceInDown 1.8s ease-out;
   -moz-animation: bounceInDown 1.8s ease-out;
   animation: bounceInDown 1.8s ease-out; }
 
-.back {
-  margin-left: 25px;
-  margin-top: 30px;
-  margin-bottom: 30px; }
-
 .goback {
-  max-width: 30px;
+  max-width: 60px;
   display: inline-block;
   margin-top: 50px;
   margin-left: 50px; }
@@ -45,10 +44,12 @@ body {
   .title h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    margin-bottom: 18px;
-    border-bottom: 6px solid black;
-    padding-bottom: 10px;
-    text-transform: uppercase; }
+    font-size: 45px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
   .title h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
@@ -57,12 +58,16 @@ body {
   .title p {
     font-family: "Varela Round", sans-serif;
     font-weight: 400;
-    margin-bottom: 10px;
-    line-height: 24px; }
+    line-height: 24px;
+    text-align: center; }
   .title .tagline {
-    color: #C6C6C5;
+    color: #AAAAAA;
     font-style: italic;
-    margin-bottom: 20px; }
+    margin-bottom: 28px; }
+  .title .role {
+    font-style: italic;
+    margin-top: 25px;
+    margin-bottom: 25px; }
 
 a {
   font-family: "Varela Round", sans-serif;
@@ -70,9 +75,9 @@ a {
   text-decoration: none;
   transition: .3s; }
   a:link {
-    color: #E42B3C; }
+    color: #9500FF; }
   a:visited {
-    color: #E42B3C;
+    color: #9500FF;
     text-decoration: inherit; }
   a:hover, a:active {
     color: #AAAAAA;
@@ -114,7 +119,7 @@ li {
   margin-left: 40px; }
 
 footer {
-  background-color: #FCFCFC;
+  background-color: #F9F9F9;
   height: 60px;
   padding-top: 20px; }
 
@@ -134,7 +139,19 @@ footer {
 
 @media screen and (max-width: 750px) {
   .title {
-    margin-top: 50px; }
+    margin-top: 20px; }
+    .title h1 {
+      font-size: 26px; }
+    .title p {
+      font-size: 12px;
+      line-height: 23px;
+      margin: 0 15px 0 15px; }
+
+  .goback {
+    max-width: 35px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 27px; }
 
   iframe {
     width: 450px;
@@ -148,14 +165,14 @@ footer {
   box-sizing: border-box; }
 
 h1 {
-  max-width: 330px;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto; }
+  max-width: 130px; }
 
 .tagline {
   text-align: center;
   margin-left: auto;
   margin-right: auto; }
+
+.row {
+  margin-top: 50px; }
 
 /*# sourceMappingURL=logos.css.map */

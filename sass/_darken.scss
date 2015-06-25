@@ -1,9 +1,14 @@
+//Imports
+@import "fonts.scss";
+@import "vars.scss";
+
 /* Project hover */
 .darken:hover, .external-link:hover {
   opacity: 0.5;
 }
 
-/*.darken {
+/*
+.darken {
     padding: 0;
     position:relative;
     margin-top: 25px;
@@ -11,10 +16,11 @@
     &:hover {
       opacity: 0.5;      
     }
-}*/
+}
+*/
 
 .darken:hover {
-  opacity: 2;
+  opacity: 4;
 }
 
 .darken img {
@@ -33,7 +39,7 @@
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   line-height: 120%;
-  font-size: 30px;
+  font-size: 27px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
@@ -41,7 +47,7 @@
 }
 
 .darken:hover span{
-  color: #28333D;
+  color: $black;
   display: block; 
   z-index: 300;
 }

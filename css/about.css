@@ -1,14 +1,26 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 @import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round);
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
 
 /* Project hover */
 .darken:hover, .external-link:hover {
   opacity: 0.5; }
 
-/*.darken {
+/*
+.darken {
     padding: 0;
     position:relative;
     margin-top: 25px;
@@ -16,9 +28,10 @@ html {
     &:hover {
       opacity: 0.5;      
     }
-}*/
+}
+*/
 .darken:hover {
-  opacity: 2; }
+  opacity: 4; }
 
 .darken img {
   transition: 0.2s ease-in-out; }
@@ -34,14 +47,14 @@ html {
   -webkit-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   line-height: 120%;
-  font-size: 30px;
+  font-size: 27px;
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   color: #FFF; }
 
 .darken:hover span {
-  color: #28333D;
+  color: #1D1D1B;
   display: block;
   z-index: 300; }
 
@@ -62,19 +75,8 @@ body {
 .container {
   max-width: 850px; }
 
-/*
-.headshot {
-  border-radius: 50%;
-  max-width: 240px;
-  margin: 0 auto;
-  margin-top: 50px;
-  margin-bottom: 50px;
-  display: block;
-  margin-top: 27px;
-}
-*/
 .about {
-  margin-top: 50px; }
+  margin-top: 60px; }
 
 p {
   font-family: "Varela Round", sans-serif;
@@ -106,24 +108,28 @@ ul {
   -moz-animation: bounceInDown 1.8s ease-out;
   animation: bounceInDown 1.8s ease-out; }
 
+/*)
+//Social links underline animation
 a#fade {
   border-bottom: 2px solid rgba(228, 43, 60, 0);
+  
   -webkit-transition: border 500ms ease;
   -moz-transition: border 500ms ease;
   -ms-transition: border 500ms ease;
   -o-transition: border 500ms ease;
-  transition: border 500ms ease; }
-
+  transition: border 500ms ease; 
+}
 a#fade:hover {
-  border-bottom: 2px solid; }
-
+  border-bottom: 2px solid;
+}
+*/
 .back {
   margin-left: 25px;
   margin-top: 30px;
   margin-bottom: 30px; }
 
 .smallarrow {
-  max-width: 33px;
+  max-width: 60px;
   display: inline-block;
   margin-top: 50px;
   margin-left: 50px;
@@ -141,12 +147,23 @@ a#fade:hover {
     text-decoration: none; }
 
 @media screen and (max-width: 416px) {
-  .social {
-    margin-top: 30px;
-    font-size: 15px; }
+  p {
+    font-size: 14px;
+    line-height: 26px; }
 
   .socialmedia {
-    width: 30px; } }
+    width: 30px; }
+
+  .social-icons {
+    width: 18px; }
+
+  .smallarrow {
+    width: 40px;
+    margin-left: 5px; }
+
+  li {
+    margin-left: 0px;
+    margin-right: 0px; } }
 @media screen and (max-width: 740px) {
   .contact {
     margin-top: 20px;
