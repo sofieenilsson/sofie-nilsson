@@ -1,19 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round:400);
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
   background: #F9F9F9; }
 
 .fade-body {
-  animation: fade 1s ease-in-out; }
+  -webkit-animation: fade 1s ease-in-out;
+          animation: fade 1s ease-in-out; }
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100; } }
 
 @keyframes fade {
   0% {
@@ -49,10 +54,11 @@ a {
   color: #E42B3C;
   font-weight: 700;
   text-decoration: underline;
-  transition: .3s ease-in-out; }
+  -webkit-transition: .3s ease-in-out;
+          transition: .3s ease-in-out; }
 
 a:hover, a:active {
-  color: #AAAAAA;
+  color: #ADADAD;
   text-decoration: none; }
 
 a:visited {

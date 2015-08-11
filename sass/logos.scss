@@ -1,10 +1,6 @@
 @import "project-page.scss";
 @import "vars.scss";
 
-h1 {
-	max-width: 130px;
-}
-
 .tagline {
 	text-align: center;
 	margin-left: auto;
@@ -13,4 +9,8 @@ h1 {
 
 .row {
 	margin-top: 50px;
+}
+
+.second-row {
+	margin-top: 10px;
 }

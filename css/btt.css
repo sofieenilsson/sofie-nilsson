@@ -1,8 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round:400);
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 html {
@@ -10,8 +8,6 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* Project hover */
@@ -33,7 +29,8 @@ html {
   opacity: 4; }
 
 .darken img {
-  transition: 0.2s ease-in-out; }
+  -webkit-transition: 0.2s ease-in-out;
+          transition: 0.2s ease-in-out; }
 
 .darken:hover img {
   opacity: .1; }
@@ -44,7 +41,8 @@ html {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
   line-height: 120%;
   font-size: 27px;
   text-transform: uppercase;
@@ -82,12 +80,10 @@ a {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
   transition: opacity .3s 0s, visibility 0s .3s; }
 
 .cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
   -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-  -moz-transition: opacity .3s 0s, visibility 0s 0s;
   transition: opacity .3s 0s, visibility 0s 0s; }
 
 .cd-top.cd-is-visible {
@@ -116,5 +112,4 @@ a {
     margin-left: 58px;
     margin-right: 40px;
     margin-bottom: 60px; } }
-
 /*# sourceMappingURL=btt.css.map */

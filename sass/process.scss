@@ -1,0 +1,165 @@
+@import "fonts.scss";
+@import "darken.scss";
+@import "vars.scss";
+
+
+body {
+	background: #F9F9F9;
+}
+
+.container {
+  max-width: 850px;
+}
+
+.about {
+  margin-top: 3px;
+}
+
+p {
+  font-family: $font-text;
+  color: $lightblack;
+  font-size: 16px;
+  line-height: 30px;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+h1 {
+  font-size: 25px;
+  line-height: 32px;
+  margin-bottom: 20px;
+  color: $red;
+  font-family: $font-stack;
+  font-weight: 700;
+}
+
+//Links
+ul {
+  text-align: center;
+  font-family: $font-stack;
+  margin: 0 auto;
+  padding-left: 0;
+  li {
+  display: inline-block;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-height: 70px;
+  }
+}
+
+/*)
+//Social links underline animation
+a#fade {
+  border-bottom: 2px solid rgba(228, 43, 60, 0);
+  
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease; 
+}
+a#fade:hover {
+  border-bottom: 2px solid;
+}
+*/
+
+
+//Go back
+.navClose {
+  -webkit-animation:bounceInDown 1.8s ease-out;
+  -moz-animation:bounceInDown 1.8s ease-out;
+  animation:bounceInDown 1.8s ease-out;
+}
+
+.back {
+  margin-left: 25px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.smallarrow {
+  max-width: 60px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px;
+  text-align: center;
+}
+
+
+//Link fade
+.fade-out {
+  color: $link;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+    &:visited {
+      color: $link;
+      text-decoration: none;
+    }
+    &:hover, &:active {
+      color: $grey;
+      text-decoration: none;
+    }
+}
+
+
+//Other devices
+@media screen and (max-width: 416px) {
+  p {
+    font-size: 14px;
+    line-height: 26px;
+  }
+
+  .socialmedia {
+    width: 30px;
+  }
+
+  .social-icons {
+    width: 18px;
+  }
+
+  .smallarrow {
+    width: 40px;
+    margin-left: 5px;
+  }
+
+  li {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+
+@media screen and (max-width: 740px) {
+  .contact {
+    margin-top: 20px;
+    font-size: 15px;
+  }
+
+  .social {
+    margin-top: 35px;
+  }
+
+  footer {
+    margin-bottom: 30px;
+  }
+
+  p {
+    margin-left: -10px;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .contact {
+    font-size: 17px;
+    text-align: center;
+  }
+}
+
+
+@media screen and (max-width: 991px) {
+  .contact {
+    font-size: 17px;
+    text-align: center;
+  }
+}

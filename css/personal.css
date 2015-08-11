@@ -1,0 +1,223 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round:400);
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  background: #F9F9F9; }
+
+.content {
+  max-width: 920px;
+  margin-bottom: 20px; }
+
+.facts-content {
+  margin-top: 20px;
+  padding-left: 0px; }
+
+.img-content {
+  max-width: 920px;
+  padding-left: 0px;
+  padding-right: 0px; }
+
+.img-space {
+  margin-bottom: 20px;
+  margin-top: 10px; }
+
+.navClose {
+  -webkit-animation: bounceInDown 1.8s ease-out;
+  animation: bounceInDown 1.8s ease-out; }
+
+.goback {
+  max-width: 60px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 50px; }
+
+.title {
+  margin: 10px 0 0 0;
+  padding-left: 15px; }
+  .title h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; }
+  .title p {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 200;
+    font-size: 16px;
+    line-height: 30px; }
+  .title .tagline {
+    color: #ADADAD;
+    margin-bottom: 0px;
+    font-weight: 200;
+    text-align: center; }
+  .title .link {
+    font-size: 16px;
+    margin-top: 4px; }
+  .title .facts {
+    margin-top: 10px; }
+  .title .facts-headline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 0px; }
+  .title .under-headline {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 200;
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px; }
+  .title .headline {
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-bottom: 4px; }
+  .title .featured {
+    margin-top: 25px;
+    margin-bottom: 0px; }
+
+.line-separator {
+  height: 1px;
+  background: #717171;
+  border-bottom: 1px solid #E2E2E2;
+  margin-top: 30px; }
+
+a {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  text-decoration: none;
+  -webkit-transition: .3s;
+          transition: .3s; }
+  a:link {
+    color: #E42B3C; }
+  a:visited {
+    color: #E42B3C;
+    text-decoration: inherit; }
+  a:hover, a:active {
+    color: #ADADAD;
+    text-decoration: inherit; }
+
+li {
+  list-style: none;
+  display: inline-block; }
+
+.video {
+  margin-top: 30px; }
+
+.bildtext {
+  font-family: "Varela Round", sans-serif;
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  margin-top: 10px; }
+
+.row {
+  margin-top: 20px; }
+
+.navigation {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center; }
+
+.next {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  text-align: center; }
+
+footer {
+  background-color: #F9F9F9;
+  height: 60px;
+  padding-top: 20px; }
+
+#footer {
+  font-family: "Varela Round", sans-serif;
+  font-size: 12px;
+  color: #ADADAD;
+  text-align: center; }
+
+.cd-top.cd-is-visible {
+  visibility: visible;
+  opacity: 1; }
+
+.cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5; }
+
+@media screen and (max-width: 750px) {
+  .title {
+    margin-top: 20px; }
+    .title h1 {
+      font-size: 26px; }
+    .title p {
+      font-size: 14px;
+      line-height: 26px;
+      margin: 0 15px 0 15px; }
+    .title .headline {
+      padding-left: 15px;
+      margin-top: 35px;
+      margin-bottom: 10px; }
+    .title .tagline {
+      font-size: 10px; }
+
+  .img-content {
+    margin-top: -20px;
+    margin-bottom: -45px; }
+
+  .img-space {
+    margin-top: 40px; }
+
+  .link {
+    padding-left: 15px; }
+
+  .goback {
+    max-width: 35px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 27px; }
+
+  .navigation {
+    margin-top: 110px; }
+
+  .next {
+    font-size: 17px; }
+
+  .home {
+    font-size: 15px; }
+
+  #footer {
+    font-size: 10px; }
+
+  iframe {
+    width: 450px;
+    height: 200px; } }
+@media screen and (max-width: 640px) {
+  .title {
+    margin-top: 0px; } }
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+h1 {
+  max-width: 130px; }
+
+.tagline {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; }
+
+.row {
+  margin-top: 50px; }
+
+/*# sourceMappingURL=logos.css.map */

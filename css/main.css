@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round:400);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
-@import url(http://fonts.googleapis.com/css?family=Varela+Round);
+@import url(http://fonts.googleapis.com/css?family=Varela+Round:400);
 html {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
@@ -11,8 +11,6 @@ html {
   -moz-osx-font-smoothing: grayscale; }
 
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 /* Project hover */
@@ -34,7 +32,8 @@ html {
   opacity: 4; }
 
 .darken img {
-  transition: 0.2s ease-in-out; }
+  -webkit-transition: 0.2s ease-in-out;
+          transition: 0.2s ease-in-out; }
 
 .darken:hover img {
   opacity: .1; }
@@ -45,7 +44,8 @@ html {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
   line-height: 120%;
   font-size: 27px;
   text-transform: uppercase;
@@ -65,50 +65,38 @@ html {
   .darken span {
     font-size: 30px; } }
 *, *:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
 body {
   background-color: #F9F9F9; }
 
+.fade-body {
+  -webkit-animation: fade 4.5s ease-in-out;
+          animation: fade 4.5s ease-in-out; }
+
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100; } }
+
+@keyframes fade {
+  0% {
+    opacity: 0; }
+  100% {
+    opacity: 100; } }
 .intro, .project-title, .next, .nav {
   font-family: "Montserrat", sans-serif;
   font-weight: 700; }
 
 .intro {
   position: relative;
-  top: 52%;
-  transform: translateY(-48%);
-  font-size: 160px;
-  color: #F9F9F9; }
-
-.title {
-  max-width: 565px;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.5px;
-  font-family: "Montserrat", sans-serif;
-  color: #F9F9F9;
-  margin: 0 auto;
-  margin-top: 35px; }
-
-.headline1 {
-  max-width: 700px;
-  margin: 0 auto; }
-
-.next {
-  max-width: 60px;
-  margin: 0 auto;
-  margin-top: 50px; }
-
-p {
-  font-size: 16px;
-  line-height: 28px;
-  font-family: "Varela Round", sans-serif; }
+  top: 54%;
+  -webkit-transform: translateY(-46%);
+      -ms-transform: translateY(-46%);
+          transform: translateY(-46%); }
 
 .first {
-  background-color: #9500FF;
   background-position: center;
   background-size: cover;
   height: 100vh; }
@@ -119,31 +107,43 @@ p {
   margin-left: auto;
   margin-right: auto; }
 
-.nav {
-  color: #F9F9F9;
-  font-size: 43px;
-  line-height: 58px;
-  margin-top: 300px; }
-
-.next {
-  text-align: center;
-  width: 60px;
-  margin-top: 160px; }
-
-.headshot {
-  border-radius: 50%;
-  max-width: 240px;
+.title {
+  max-width: 430px;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.5px;
+  font-family: "Varela Round", sans-serif;
+  color: #ADADAD;
   margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 50px;
-  display: block;
-  margin-top: 27px; }
+  margin-top: 25px;
+  font-weight: 200; }
 
+p {
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.5px;
+  font-family: "Varela Round", sans-serif;
+  color: #ADADAD; }
+
+.cta {
+  max-width: 40px;
+  margin-top: 130px; }
+
+.logo {
+  max-width: 300px; }
+
+/*
+.next {
+  max-width: 60px;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+*/
 .second {
   background-color: #F9F9F9; }
 
 .second-content {
-  max-width: 800px;
+  max-width: 1200px;
   margin-top: 100px; }
 
 .container-second {
@@ -151,51 +151,51 @@ p {
   margin-left: auto;
   margin-right: auto; }
 
-.navAbout {
-  width: 80px;
-  margin-top: 60px;
-  margin-left: 66px;
-  margin-right: 70px;
-  top: 1%;
-  left: 2%; }
-
-.navContact {
-  width: 40px;
-  margin-bottom: 10px;
-  background-color: #F9F9F9; }
-
 .row {
-  margin-bottom: 30px; }
+  margin-bottom: 40px; }
+
+.project-title {
+  font-family: "Montserrat", sans-serif;
+  color: #5B5B5B;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 5px; }
+
+.description {
+  color: #ADADAD;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  font-weight: 400; }
 
 .third {
   background-color: #F9F9F9; }
 
 .third-content {
-  max-width: 1200px;
-  margin-top: 120px; }
+  max-width: 190px;
+  margin-top: 60px;
+  margin-bottom: 40px; }
 
-.project-title {
-  font-family: "Montserrat", sans-serif;
-  color: #5B5B5B;
-  text-align: center;
-  font-size: 18px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 25px;
-  margin-bottom: 0px; }
+.navKnow {
+  font-size: 15px;
+  margin-top: 10px; }
 
-.description {
-  font-size: 12px;
-  color: #5B5B5B;
-  font-style: italic;
-  text-align: center; }
+.navMail {
+  width: 40px;
+  margin-bottom: 10px;
+  background-color: #F9F9F9; }
 
 .social {
-  margin-top: 50px;
-  margin-bottom: 15px; }
+  margin-top: 30px;
+  margin-bottom: 5px; }
 
 .social-icons {
-  width: 50px; }
+  width: 30px; }
 
 ul {
   text-align: center;
@@ -204,9 +204,21 @@ ul {
   padding-left: 0; }
   ul li {
     display: inline-block;
-    margin-left: 20px;
-    margin-right: 20px;
-    max-height: 70px; }
+    max-height: 70px;
+    margin-left: 14px;
+    margin-right: 14px; }
+
+.fade-out {
+  color: #E42B3C;
+  text-decoration: none;
+  -webkit-transition: .3s ease-in-out;
+          transition: .3s ease-in-out; }
+  .fade-out:visited {
+    color: #E42B3C;
+    text-decoration: none; }
+  .fade-out:hover, .fade-out:active {
+    color: #ADADAD;
+    text-decoration: none; }
 
 footer {
   background-color: #F9F9F9;
@@ -217,19 +229,9 @@ footer {
   font-family: "Montserrat", sans-serif;
   background-color: #F9F9F9;
   font-size: 12px;
-  color: #AAAAAA;
+  letter-spacing: 0.5px;
+  color: #ADADAD;
   text-align: center; }
-
-.fade-out {
-  color: #9500FF;
-  text-decoration: none;
-  transition: .3s ease-in-out; }
-  .fade-out:visited {
-    color: #9500FF;
-    text-decoration: none; }
-  .fade-out:hover, .fade-out:active {
-    color: #AAAAAA;
-    text-decoration: none; }
 
 .cd-top.cd-is-visible {
   visibility: visible;
