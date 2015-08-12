@@ -24,8 +24,8 @@ body {
 
 .intro {
   position: relative;
-  top: 54%;
-  transform: translateY(-46%);
+  top: 48%;
+  transform: translateY(-52%);
 }
 
 .first {
@@ -35,7 +35,7 @@ body {
 }
 
 .container-intro {
-  max-width: 800px;
+  max-width: 920px;
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -66,6 +66,26 @@ p {
   margin-top: 130px;
 }
 
+/*
+//Social links underline animation
+a#fade {
+  border-bottom: 2px solid rgba(228, 43, 60, 0);
+  
+  -webkit-transition: border 500ms ease;
+  -moz-transition: border 500ms ease;
+  -ms-transition: border 500ms ease;
+  -o-transition: border 500ms ease;
+  transition: border 500ms ease; 
+}
+
+a#fade:hover {
+  border-bottom: 2px solid;
+}
+
+.nav {
+  margin-top: 30px;
+}
+*/
 
 //Logo
 .logo {
@@ -87,7 +107,7 @@ p {
 }
 
 .second-content {
-  max-width: 1200px;
+  max-width: 920px;
   margin-top: 100px;
 }
 
@@ -104,7 +124,7 @@ p {
 .project-title {
   font-family: $font-stack;
   color: $dark-grey;
-  font-size: 18px;
+  font-size: 15px;
   letter-spacing: 0.5px;
   font-weight: 700;
   text-transform: uppercase;
@@ -115,7 +135,7 @@ p {
 
 .description {
   color: $grey;
-  font-size: 12px;
+  font-size: 11px;
   line-height: 20px;
   letter-spacing: 0.5px;
   text-align: center;
@@ -200,18 +220,6 @@ footer {
   color: $grey;
   text-align: center;
 }
-
-
-//Back to top
-.cd-top.cd-is-visible {
-  visibility: visible;
-  opacity: 1;
-}
-
-.cd-top.cd-fade-out {
-  opacity: .5;
-}
-
 
 //Other devices
 @media screen and (max-width: 740px) {

@@ -200,17 +200,6 @@ footer {
   text-align: center;
 }
 
-//Back to top
-.cd-top.cd-is-visible {
-  visibility: visible;
-  opacity: 1;
-}
-
-.cd-top.cd-fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  opacity: .5;
-}
-
 
 //Big phone (iPhone 6)
 @media screen and (max-width: 750px) {

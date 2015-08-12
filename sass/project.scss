@@ -1,0 +1,53 @@
+@import "fonts.scss";
+@import "darken.scss";
+@import "vars.scss";
+
+
+body {
+	background: $red;
+}
+
+.fade-body {
+  animation: fade 4.5s ease-in-out;
+}
+@keyframes fade {
+  0%     { opacity: 0   }
+  100%   { opacity: 100 }
+}
+
+.header {
+
+}
+
+.headerContent {
+
+}
+
+.headerContainer {
+  max-width: 920px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.headerLogo {
+  max-width: 80px;
+}
+
+
+//Link fade
+.fade-out {
+  color: $link;
+  text-decoration: none;
+  transition: .3s ease-in-out;
+    &:visited {
+      color: $link;
+      text-decoration: none;
+    }
+    &:hover, &:active {
+      color: $grey;
+      text-decoration: none;
+    }
+}
+
+
